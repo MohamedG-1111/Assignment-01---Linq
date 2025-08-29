@@ -6,7 +6,10 @@ namespace Assignment_01___Linq
     {
         static void Main(string[] args)
         {
-          
+            #region Data
+            var Customers = ListGenerator.CustomerList;
+            var Products = ListGenerator.ProductList;
+            #endregion
         }
     }
 }
